@@ -26,7 +26,7 @@ public class Puck : MonoBehaviour
             gameObject.GetComponent<Rigidbody2D>().MovePosition(sPos);
             gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
             pScore++;
-            pScoreText.text = eScore.ToString();
+            pScoreText.text = pScore.ToString();
         }
     }
     // Update is called once per frame
